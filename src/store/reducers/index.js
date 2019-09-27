@@ -17,7 +17,7 @@ const initialState = {
 
 
 export const carReducer = (state = initialState, action) => {
-    console.log("Action:", action);
+    console.log("Action from carReducer:", action);
     switch (action.type) {
       default:
         return state;

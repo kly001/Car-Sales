@@ -15,7 +15,7 @@ const App = (props) => {
   };
 
   const buyItem = item => {
-    // dipsatch an action here to add an item
+    // dispatch an action here to add an item
   };
 
   return (
@@ -32,7 +32,6 @@ const App = (props) => {
   );
 };
 
-// export default App;
 
 
 const mapStateToProps = state => {
