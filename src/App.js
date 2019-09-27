@@ -12,10 +12,20 @@ const App = (props) => {
 
   const removeFeature = item => {
     // dispatch an action here to remove an item
+    this.props.buyItem( {
+      id:item.id,
+      name: item.name,
+      price: item.price
+    })
   };
 
   const buyItem = item => {
     // dispatch an action here to add an item
+    this.props.buyItem( {
+      id:item.id,
+      name: item.name,
+      price: item.price
+    })
   };
 
   return (
@@ -45,5 +55,4 @@ const mapStateToProps = state => {
 
 export default connect(
   mapStateToProps,
-  {})
-  (App)
+  {})(App)
