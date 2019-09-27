@@ -12,7 +12,7 @@ const App = (props) => {
 
   const removeFeature = item => {
     // dispatch an action here to remove an item
-    this.props.buyItem( {
+    this.props.removeFeature( {
       id:item.id,
       name: item.name,
       price: item.price
