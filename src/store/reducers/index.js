@@ -1,5 +1,4 @@
 const initialState = {
-     state : {
         additionalPrice: 0,
         car: {
           price: 26395,
@@ -15,7 +14,7 @@ const initialState = {
           { id: 4, name: 'Rear spoiler', price: 250 }
         ]
     }
-}
+
 
 export const carReducer = (state = initialState, action) => {
     console.log("Action:", action);
